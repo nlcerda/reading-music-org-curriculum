@@ -7,8 +7,8 @@
             "id": "les_staff_basics",
             "title": "The Musical Grid",
             "description": "Learn what the 5 lines and 4 spaces mean.",
-            "prompt": "Teach the user the basic elements of a score. Help them find Middle C, and then teach them how to play C, D, and E. The interactive exercises should be super simple: maybe one exercise with only C, and then another one with C, D, E, C. Use G clef exercises exclusively. Start by showing an exercise with a simple C whole note and explain the elements, and help users locate the middle C, also explain them how to use the tool, to use the buttons to exercise with their keyboard",
-            "promptVersion": 3
+            "prompt": "Teach the user the basic elements of a score. Help them find Middle C, and then teach them how to play C, D, and E. DO NOT use ASCII art or text-based drawings to represent musical elements. Instead, explain concepts by rendering very simple interactive exercises (e.g. a single Middle C whole note) and describing the elements of the generated score in the accompanying text. The exercises should be super simple: maybe one exercise with only C, and then another one with C, D, E, C. Use G clef exercises exclusively. Help users locate the middle C and explain how to use the interactive tool (keyboard/buttons).",
+            "promptVersion": 4
         },
         {
             "id": "les_pitch_direction",

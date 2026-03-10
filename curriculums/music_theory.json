@@ -1,0 +1,227 @@
+{
+    "id": "core_music_theory",
+    "version": "1.0",
+    "nodes": {
+        "mod_first_steps": {
+            "id": "mod_first_steps",
+            "metadata": {
+                "title": "First Steps: Intro to Music",
+                "description": "The absolute basics of how music is written. Learn what a staff is, how notes go up and down, and the fundamental concept of a steady beat.",
+                "learningOutcome": "Understands the basic grid of written music (pitch vs time)."
+            }
+        },
+        "mod_basic_rhythm": {
+            "id": "mod_basic_rhythm",
+            "dependsOn": [
+                "mod_first_steps"
+            ],
+            "metadata": {
+                "title": "Basic Rhythm & Rests",
+                "description": "Learn the most common note durations: whole, half, quarter, and their corresponding rests.",
+                "learningOutcome": "Can clap or tap basic rhythmic patterns."
+            }
+        },
+        "mod_treble_clef": {
+            "id": "mod_treble_clef",
+            "dependsOn": [
+                "mod_first_steps"
+            ],
+            "metadata": {
+                "title": "Reading the Treble Clef",
+                "description": "Learn the letter names of the lines and spaces specifically for the Treble Clef (G Clef).",
+                "learningOutcome": "Can fluently name notes from E4 to F5."
+            }
+        },
+        "mod_bass_clef": {
+            "id": "mod_bass_clef",
+            "dependsOn": [
+                "mod_first_steps"
+            ],
+            "metadata": {
+                "title": "Reading the Bass Clef",
+                "description": "Learn the letter names of the lines and spaces for the Bass Clef (F Clef).",
+                "learningOutcome": "Can fluently name notes from G2 to A3."
+            }
+        },
+        "mod_the_grand_staff": {
+            "id": "mod_the_grand_staff",
+            "dependsOn": [
+                "mod_treble_clef",
+                "mod_bass_clef"
+            ],
+            "metadata": {
+                "title": "The Grand Staff & Middle C",
+                "description": "See how the Treble and Bass clefs connect to form the Grand Staff, bridged by Middle C.",
+                "learningOutcome": "Understands the continuous relationship of pitches across both clefs."
+            }
+        },
+        "mod_eighth_notes": {
+            "id": "mod_eighth_notes",
+            "dependsOn": [
+                "mod_basic_rhythm"
+            ],
+            "metadata": {
+                "title": "Eighth Notes & Subdivisions",
+                "description": "Break the beat in half. Learn to read and perform pairs of eighth notes and eighth rests.",
+                "learningOutcome": "Can accurately count and perform '1 and 2 and' rhythms."
+            }
+        },
+        "mod_time_signatures_simple": {
+            "id": "mod_time_signatures_simple",
+            "dependsOn": [
+                "mod_basic_rhythm"
+            ],
+            "metadata": {
+                "title": "Simple Time Signatures",
+                "description": "Learn how music is grouped into measures. Covers 4/4 (Common Time), 3/4, and 2/4.",
+                "learningOutcome": "Can identify the meter of a piece and place bar lines correctly."
+            }
+        },
+        "mod_ledger_lines_1": {
+            "id": "mod_ledger_lines_1",
+            "dependsOn": [
+                "mod_the_grand_staff"
+            ],
+            "metadata": {
+                "title": "Ledger Lines: Just Outside the Staff",
+                "description": "Learn to read notes up to two ledger lines above and below the Treble and Bass clefs.",
+                "learningOutcome": "Comfortably reads an extended range suitable for intermediate sheet music."
+            }
+        },
+        "mod_accidentals": {
+            "id": "mod_accidentals",
+            "dependsOn": [
+                "mod_the_grand_staff"
+            ],
+            "metadata": {
+                "title": "Sharps, Flats, & Naturals",
+                "description": "Introduction to chromatic alteration using accidental symbols.",
+                "learningOutcome": "Understands how to raise or lower a pitch by a half-step."
+            }
+        },
+        "mod_c_major_scale": {
+            "id": "mod_c_major_scale",
+            "dependsOn": [
+                "mod_accidentals"
+            ],
+            "metadata": {
+                "title": "The C Major Scale",
+                "description": "The foundation of Western harmony. Learn the specific pattern of whole and half steps that builds a Major scale.",
+                "learningOutcome": "Knows the formula W-W-H-W-W-W-H and can construct C Major."
+            }
+        },
+        "mod_intervals_basic": {
+            "id": "mod_intervals_basic",
+            "dependsOn": [
+                "mod_c_major_scale"
+            ],
+            "metadata": {
+                "title": "Basic Intervals (Numeric)",
+                "description": "Learn to instantly recognize the distance between two notes on the staff (2nds, 3rds, 4ths, 5ths, etc.).",
+                "learningOutcome": "Can visually identify the numeric size of an interval without counting lines."
+            }
+        },
+        "mod_key_signatures_sharp": {
+            "id": "mod_key_signatures_sharp",
+            "dependsOn": [
+                "mod_c_major_scale"
+            ],
+            "metadata": {
+                "title": "Sharp Key Signatures",
+                "description": "Learn the order of sharps and how to identify major keys from G to B.",
+                "learningOutcome": "Can instantly name a major key by looking at its sharp signature."
+            }
+        },
+        "mod_key_signatures_flat": {
+            "id": "mod_key_signatures_flat",
+            "dependsOn": [
+                "mod_c_major_scale"
+            ],
+            "metadata": {
+                "title": "Flat Key Signatures",
+                "description": "Learn the order of flats and how to identify major keys from F to Db.",
+                "learningOutcome": "Can instantly name a major key by looking at its flat signature."
+            }
+        },
+        "mod_minor_scales": {
+            "id": "mod_minor_scales",
+            "dependsOn": [
+                "mod_key_signatures_sharp",
+                "mod_key_signatures_flat"
+            ],
+            "metadata": {
+                "title": "Relative Minor Keys",
+                "description": "Discover the 'sad' sibling of every major key. Learn how to find the relative minor.",
+                "learningOutcome": "Can identify both the Major and Minor key a signature represents."
+            }
+        },
+        "mod_dotted_rhythms": {
+            "id": "mod_dotted_rhythms",
+            "dependsOn": [
+                "mod_eighth_notes",
+                "mod_time_signatures_simple"
+            ],
+            "metadata": {
+                "title": "Dotted Rhythms",
+                "description": "Learn how the dot alters a note's length. Focus on dotted half notes and the dotted-quarter/eighth pair.",
+                "learningOutcome": "Can accurately perform syncopated and dotted rhythmic figures."
+            }
+        },
+        "mod_compound_time": {
+            "id": "mod_compound_time",
+            "dependsOn": [
+                "mod_dotted_rhythms"
+            ],
+            "metadata": {
+                "title": "Compound Time (6/8, 9/8)",
+                "description": "Explore meters where the beat naturally divides into threes instead of twos.",
+                "learningOutcome": "Can feel and count music in compound meter without confusing it for triplets."
+            }
+        },
+        "mod_triads_major_minor": {
+            "id": "mod_triads_major_minor",
+            "dependsOn": [
+                "mod_intervals_basic",
+                "mod_minor_scales"
+            ],
+            "metadata": {
+                "title": "Major & Minor Triads",
+                "description": "Stacking thirds to build basic chords. Learn the difference between Major and minor triads.",
+                "learningOutcome": "Can construct and identify root-position Major and minor triads."
+            }
+        },
+        "mod_triad_inversions": {
+            "id": "mod_triad_inversions",
+            "dependsOn": [
+                "mod_triads_major_minor"
+            ],
+            "metadata": {
+                "title": "Chord Inversions",
+                "description": "Learn what happens when the root isn't on the bottom. Covers 1st and 2nd inversions.",
+                "learningOutcome": "Can identify standard triads regardless of voicing order."
+            }
+        },
+        "mod_sixteenth_notes": {
+            "id": "mod_sixteenth_notes",
+            "dependsOn": [
+                "mod_eighth_notes"
+            ],
+            "metadata": {
+                "title": "16th Notes & Faster Rhythms",
+                "description": "Breaking beats into quarters. Learn how to read grouping of four 16th notes.",
+                "learningOutcome": "Can count '1 e & a' fluidly."
+            }
+        },
+        "mod_reading_music_terms": {
+            "id": "mod_reading_music_terms",
+            "dependsOn": [
+                "mod_first_steps"
+            ],
+            "metadata": {
+                "title": "Dynamics & Articulation",
+                "description": "How loud? How short? Learn the symbols for piano, forte, staccato, accents, and slurs.",
+                "learningOutcome": "Can interpret stylistic markings to play with expression."
+            }
+        }
+    }
+}

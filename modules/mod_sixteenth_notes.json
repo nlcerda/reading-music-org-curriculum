@@ -1,0 +1,21 @@
+{
+    "id": "mod_sixteenth_notes",
+    "title": "16th Notes & Faster Rhythms",
+    "description": "Breaking beats into quarters. Learn how to read grouping of four 16th notes.",
+    "lessons": [
+        {
+            "id": "les_intro_sixteenths",
+            "title": "1 E & A",
+            "description": "Learn to count to four inside a single beat.",
+            "prompt": "Introduce 16th notes. Show how they have double beams and fit four to a quarter note beat. Teach the '1 e & a' counting method. Provide an exercise in 4/4 on Middle C combining quarter notes and blocks of four 16th notes.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_sixteenths_and_eighths",
+            "title": "Mixing It Up",
+            "description": "Combine 16th notes with 8th notes.",
+            "prompt": "Create rhythms mixing one 8th note with two 16th notes (the 'strawberry' or 'blueberry' rhythms). Provide challenging but slow exercises to practice these mixed subdivisions accurately. Keep the focus entirely on rhythm by only using Middle C.",
+            "promptVersion": 1
+        }
+    ]
+}

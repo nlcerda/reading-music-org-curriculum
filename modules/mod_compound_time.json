@@ -1,0 +1,21 @@
+{
+    "id": "mod_compound_time",
+    "title": "Compound Time (6/8, 9/8)",
+    "description": "Explore meters where the beat naturally divides into threes instead of twos.",
+    "lessons": [
+        {
+            "id": "les_understanding_6_8",
+            "title": "The Jig Feel",
+            "description": "Learn how 6/8 time works and how to feel it in 2 big beats.",
+            "prompt": "Explain 6/8 time signature. Clarify that while there are 6 eighth notes per measure, we usually feel it as two big beats (like a dotted quarter note) that divide into three eighth notes each. Provide an exercise in 6/8 time demonstrating this feeling using eighth notes and dotted quarter notes.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_9_8_and_12_8",
+            "title": "Expanding the Triple",
+            "description": "Learn 9/8 and 12/8 time.",
+            "prompt": "Extend the concept of compound time to 9/8 (three big beats per measure) and 12/8 (four big beats per measure, like the blues). Provide an interactive exercise reading rhythms in 12/8 time.",
+            "promptVersion": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "mod_key_signatures_flat",
+    "title": "Flat Key Signatures",
+    "description": "Learn the order of flats and how to identify major keys from F to Db.",
+    "lessons": [
+        {
+            "id": "les_order_of_flats",
+            "title": "BEAD Greatest Common Factor",
+            "description": "Learn the exact order that flats appear in a key signature.",
+            "prompt": "Teach the order of flats: B, E, A, D, G, C, F. Notice how it is the reverse of the sequence of sharps. Provide interactive exercises testing the sequence.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_flat_major_keys",
+            "title": "The Second-to-Last Trick",
+            "description": "Learn the shortcut to identify any flat major key.",
+            "prompt": "Teach the fast rule for finding a Flat Major key: The second-to-last flat IS the name of the key (except for F major with one flat, which must be memorized). Provide an exercise presenting various flat key signatures and asking the user to play the correct tonic.",
+            "promptVersion": 1
+        }
+    ]
+}

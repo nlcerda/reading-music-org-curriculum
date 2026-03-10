@@ -1,0 +1,28 @@
+{
+    "id": "mod_first_steps",
+    "title": "First Steps: Intro to Music",
+    "description": "The absolute basics of how music is written. Learn what a staff is, how notes go up and down, and the fundamental concept of a steady beat.",
+    "lessons": [
+        {
+            "id": "les_staff_basics",
+            "title": "The Musical Grid",
+            "description": "Learn what the 5 lines and 4 spaces mean.",
+            "prompt": "Teach the user the basic elements of a score. Help them find Middle C, and then teach them how to play C, D, and E. The interactive exercises should be super simple: maybe one exercise with only C, and then another one with C, D, E, C. Use G clef exercises exclusively. Start by showing an exercise with a simple C whole note and explain the elements, and help users locate the middle C, also explain them how to use the tool, to use the buttons to exercise with their keyboard",
+            "promptVersion": 3
+        },
+        {
+            "id": "les_pitch_direction",
+            "title": "Going Up and Down",
+            "description": "Understand how notes moving on the staff relate to pitch.",
+            "prompt": "Explain the concept of pitch direction: higher on the staff means higher pitch, lower means lower. Introduce the notes F and G to complete the 5-finger C major position. Create simple exercises stepping up from C to G and back down.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_steady_beat",
+            "title": "The Steady Beat",
+            "description": "Feel the underlying pulse of music.",
+            "prompt": "Introduce the concept of a steady beat and basic rhythm. Teach the difference in duration between whole notes, half notes, and quarter notes in 4/4 time. Create simple exercises using only the C major 5-finger position that mixes these note values.",
+            "promptVersion": 1
+        }
+    ]
+}

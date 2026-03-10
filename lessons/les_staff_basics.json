@@ -1,0 +1,14 @@
+{
+    "id": "les_staff_basics",
+    "title": "The Musical Grid",
+    "sections": [
+        {
+            "type": "text",
+            "content": "## What is Sheet Music?\n\nSheet music is a visual language that tells musicians **which notes to play** and **for how long**.\nIt is written on a **staff** — five horizontal lines stacked on top of each other.\n\nNotes sit either **on** the lines or **in the spaces** between them.\nTheir vertical position tells you which pitch to play."
+        },
+        {
+            "type": "text",
+            "content": "## Lines and Spaces\n\nThere are 5 lines and 4 spaces on a standard staff. We always count from the bottom up.\nThe lowest line is Line 1, and the top line is Line 5."
+        }
+    ]
+}

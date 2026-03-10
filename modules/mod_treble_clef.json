@@ -1,0 +1,28 @@
+{
+    "id": "mod_treble_clef",
+    "title": "Reading the Treble Clef",
+    "description": "Learn the letter names of the lines and spaces specifically for the Treble Clef (G Clef).",
+    "lessons": [
+        {
+            "id": "les_treble_lines",
+            "title": "Every Good Boy Deserves Fudge",
+            "description": "Learn the notes on the five lines of the Treble Clef.",
+            "prompt": "Teach the notes on the lines of the Treble Clef: E, G, B, D, F. Explain common mnemonics like 'Every Good Boy Deserves Fudge'. Provide interactive exercises that present these line notes randomly and ask the user to play them on their keyboard.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_treble_spaces",
+            "title": "FACE in the Space",
+            "description": "Learn the notes in the four spaces of the Treble Clef.",
+            "prompt": "Teach the notes in the spaces of the Treble Clef: F, A, C, E. Explain the mnemonic 'FACE'. Provide interactive exercises that present space notes randomly for the user to play.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_treble_review",
+            "title": "Treble Clef Mastery",
+            "description": "Mix lines and spaces together.",
+            "prompt": "Combine Treble Clef line and space notes. Provide exercises with melodic fragments spanning from E4 to F5. Focus on step-wise motion and small skips.",
+            "promptVersion": 1
+        }
+    ]
+}

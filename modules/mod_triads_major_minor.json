@@ -1,0 +1,21 @@
+{
+    "id": "mod_triads_major_minor",
+    "title": "Major & Minor Triads",
+    "description": "Stacking thirds to build basic chords. Learn the difference between Major and minor triads.",
+    "lessons": [
+        {
+            "id": "les_building_major_triads",
+            "title": "The Happy Chord",
+            "description": "Learn to stack a Major 3rd and a perfect 5th to create a Major triad.",
+            "prompt": "Teach the construction of a Major triad (Root, Major 3rd, Perfect 5th). Use C Major as the first example. Create an exercise showing root position major chords (C, F, G) on the staff and ask the user to play them.",
+            "promptVersion": 1
+        },
+        {
+            "id": "les_building_minor_triads",
+            "title": "The Sad Chord",
+            "description": "Lower the third to create a minor triad.",
+            "prompt": "Teach the minor triad by taking a Major triad and lowering the 3rd by a half step. Use A minor and D minor as examples. Create an exercise where major chords and minor chords are mixed together for the user to read and play.",
+            "promptVersion": 1
+        }
+    ]
+}

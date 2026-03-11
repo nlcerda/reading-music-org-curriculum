@@ -9,10 +9,24 @@
             "description": "Learn what the 5 lines and 4 spaces mean.",
             "prompt": "Teach the user the basic elements of a score. Help them find Middle C, and then teach them how to play C, D, and E. DO NOT use ASCII art or text-based drawings.",
             "sections": [
-                { "type": "text", "prompt": "Introduce the musical staff (5 lines, 4 spaces) and the treble clef. Explain that notes sit on lines and spaces, and higher position = higher pitch. Keep it concise and beginner-friendly." },
-                { "type": "exercise", "slug": "just_c", "prompt": "A simple exercise with a G clef and just a middle C whole note." },
-                { "type": "text", "prompt": "Great job! Now let's learn two more notes: D and E. Explain where D and E sit on the treble clef staff relative to middle C." },
-                { "type": "exercise", "slug": "c_d_and_e", "prompt": "C, D, E, C. 4 bars of whole notes, treble clef." }
+                {
+                    "type": "text",
+                    "prompt": "Introduce the musical staff (5 lines, 4 spaces) and the treble clef. Explain that notes sit on lines and spaces, and higher position = higher pitch. Keep it concise and beginner-friendly."
+                },
+                {
+                    "type": "exercise",
+                    "slug": "just_c",
+                    "prompt": "A simple exercise with a G clef and just a middle C whole note."
+                },
+                {
+                    "type": "text",
+                    "prompt": "Great job! Now let's learn two more notes: D and E. Explain where D and E sit on the treble clef staff relative to middle C."
+                },
+                {
+                    "type": "exercise",
+                    "slug": "c_d_and_e",
+                    "prompt": "C, D, E, C. 4 bars of whole notes, treble clef."
+                }
             ],
             "promptVersion": 7
         },

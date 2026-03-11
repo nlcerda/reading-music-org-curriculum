@@ -8,14 +8,14 @@
             "title": "The Magic Formula",
             "description": "Learn the W-W-H-W-W-W-H pattern of a major scale.",
             "prompt": "Teach the formula for a Major scale: Whole, Whole, Half, Whole, Whole, Whole, Half. Show how starting on C and following this formula uses only white keys. Provide an interactive exercise that has the user play a single octave ascending C major scale.",
-            "promptVersion": 1
+            "version": 1
         },
         {
             "id": "les_scale_degrees",
             "title": "Scale Degrees",
             "description": "Learn how the notes of a scale are numbered 1 through 8.",
             "prompt": "Explain scale degrees (1st through 8th) using the C Major scale. Provide a melody in C major and ask questions about the function of notes, ending the exercise on the 'tonic' (1st degree) to demonstrate resolution.",
-            "promptVersion": 1
+            "version": 1
         }
     ]
 }

@@ -8,14 +8,14 @@
             "title": "The Sound of Silence",
             "description": "Learn what rests are and how they correspond to note durations.",
             "prompt": "Explain the concept of musical rests. Introduce the whole rest, half rest, and quarter rest. Explain that silence is just as important as sound in music. Provide simple 4/4 exercises with a single Middle C and various rests so the user can practice waiting.",
-            "promptVersion": 1
+            "version": 1
         },
         {
             "id": "les_mixing_notes_rests",
             "title": "Rhythm Mix-Up",
             "description": "Combine whole, half, and quarter notes with their rests.",
             "prompt": "Create exercises combining whole, half, and quarter notes with their corresponding rests in 4/4 time. Use only the note Middle C to keep the focus entirely on rhythm reading rather than pitch reading.",
-            "promptVersion": 1
+            "version": 1
         }
     ]
 }

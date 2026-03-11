@@ -28,21 +28,21 @@
                     "prompt": "C, D, E, C. 4 bars of whole notes, treble clef."
                 }
             ],
-            "promptVersion": 7
+            "version": 8
         },
         {
             "id": "les_pitch_direction",
             "title": "Going Up and Down",
             "description": "Understand how notes moving on the staff relate to pitch.",
             "prompt": "Explain the concept of pitch direction: higher on the staff means higher pitch, lower means lower. Introduce the notes F and G to complete the 5-finger C major position. Create simple exercises stepping up from C to G and back down.",
-            "promptVersion": 1
+            "version": 1
         },
         {
             "id": "les_steady_beat",
             "title": "The Steady Beat",
             "description": "Feel the underlying pulse of music.",
             "prompt": "Introduce the concept of a steady beat and basic rhythm. Teach the difference in duration between whole notes, half notes, and quarter notes in 4/4 time. Create simple exercises using only the C major 5-finger position that mixes these note values.",
-            "promptVersion": 1
+            "version": 1
         }
     ]
 }

@@ -8,14 +8,14 @@
             "title": "Father Charles Goes Down",
             "description": "Learn the exact order that sharps appear in a key signature.",
             "prompt": "Teach the order of sharps: F, C, G, D, A, E, B. Explain common mnemonics. Provide a quiz-like interactive exercise that tests the user on which sharp comes next in the sequence.",
-            "promptVersion": 1
+            "version": 1
         },
         {
             "id": "les_sharp_major_keys",
             "title": "The Up-A-Half-Step Trick",
             "description": "Learn the shortcut to identify any sharp major key.",
             "prompt": "Teach the fast rule for finding a Sharp Major key: Look at the very last sharp and go up a half step to find the tonic. Provide an interactive exercise presenting various sharp key signatures and asking the user to play the tonic note of the major key.",
-            "promptVersion": 1
+            "version": 1
         }
     ]
 }

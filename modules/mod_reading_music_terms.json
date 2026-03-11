@@ -8,14 +8,14 @@
             "title": "Loud and Soft",
             "description": "Learn forte, piano, crescendo, and decrescendo symbols.",
             "prompt": "Teach basic Italian dynamic markings: f (forte, loud) and p (piano, soft), as well as hairpins (crescendos and decrescendos). While our digital exercises mostly grade correct pitches right now, provide an exercise where the text prompts the user to physically play the provided notes as loud or as soft as they can.",
-            "promptVersion": 1
+            "version": 1
         },
         {
             "id": "les_articulation",
             "title": "Short and Connected",
             "description": "Learn staccato dots, tenuto lines, accents, and slurs.",
             "prompt": "Teach articulation markings. Explain staccato (play short/detached), accents (play forcefully), and slurs (play smoothly connected/legato). Provide an interactive music reading exercise featuring a melody equipped with a variety of these articulation marks.",
-            "promptVersion": 1
+            "version": 1
         }
     ]
 }

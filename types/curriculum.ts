@@ -88,4 +88,6 @@ export interface CurriculumModule {
     description?: string;
     /** The ordered list of lesson blueprints in this module */
     lessons: CurriculumLesson[];
+    /** Optional dictionary of reusable exercise templates/prompts for this module */
+    exercises?: Record<string, any>;
 }

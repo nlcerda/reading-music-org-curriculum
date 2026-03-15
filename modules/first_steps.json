@@ -7,8 +7,8 @@
             "id": "staff_basics",
             "title": "The Musical Grid",
             "description": "Learn what the 5 lines and 4 spaces mean.",
-            "prompt": "Explain me about the elements of a basic sheet, the musical staff, treble clef, time signature and notes, explain superficially, show an exercise with only a middle C, then explain the user how to find the middle C and play it on the exercise.",
-            "version": 10
+            "prompt": "Explain me about the elements of a basic sheet, the musical staff, treble clef, time signature and notes, explain superficially, show an exercise with only a single bar and two half middle Cs, then explain the user how to find the middle C and play it on the exercise.",
+            "version": 12
         },
         {
             "id": "pitch_direction",

@@ -76,7 +76,7 @@ export interface ModuleSession {
      * Skills developed in this single session. 
      * OPTIONAL: Most sessions contribute to the parent Module's skill(s).
      */
-    skills?: Skill[];
+    proficiencies?: Proficiency[];
 }
 
 
@@ -109,7 +109,7 @@ export interface Module {
      * Skills requiring synthesis of multiple sessions.
      * IMPORTANT: Must include at least Level 0 (Baseline/Module Passed status)
      */
-    skills: Skill[];
+    proficiencies: Proficiency[];
 }
 
 
@@ -118,7 +118,7 @@ export interface Module {
 /**
  * Registry definition of a capability (e.g., 'rhythm', 'note_reading').
  */
-export interface Skill {
+export interface Proficiency {
     id: string;
     title: string;
     description: string;
@@ -127,7 +127,7 @@ export interface Skill {
 /**
  * How we define if a skill has been achieved.
  */
-export interface SkillLevel {
+export interface ProficiencyLevel {
     id: string; // e.g., "mod_rhythm_lvl_1"
     index: number; // 1, 2, 3...
     /** A human-readable description of the capability. */
@@ -141,7 +141,7 @@ export interface SkillLevel {
 /**
  * A progressive definition of a capability.
  */
-export interface Skill {
+export interface Proficiency {
     id: string;
     title: string;
     description: string;
@@ -150,27 +150,27 @@ export interface Skill {
      * index 0 = Baseline (Passed)
      * index 1+ = Mastery Levels
      */
-    levels: SkillLevel[];
+    levels: ProficiencyLevel[];
 }
 
 /**
  * An ordered collection of underlying Modules designed to guide a user toward a macro-learning objective.
  */
-export interface ModuleGroup {
+export interface Skill {
     id: string;               // e.g., "path_theory_basics"
     title: string;
     description: string;
     modules: string[];        // Array of Module IDs defining the path
     /** 
-     * Dependency IDs (ModuleGroup IDs only). 
+     * Dependency IDs (Skill IDs only). 
      * The group unlocks when all required groups are mastered.
      */
-    requiredModuleGroups?: string[]; 
+    requiredSkills?: string[]; 
     /** 
      * Skills requiring synthesis of the entire path.
      * IMPORTANT: Must include at least Level 0 (Baseline/Path Passed status)
      */
-    skills: Skill[]; 
+    proficiencies: Proficiency[]; 
 }
 
 /**
@@ -189,7 +189,7 @@ export interface ModuleGraphNode {
         learningOutcomeFull?: string;
     };
     /** Skills attached to this module node (including Level 0 pass threshold) */
-    skills: Skill[];
+    proficiencies: Proficiency[];
 }
 
 /**
@@ -201,9 +201,9 @@ export interface CurriculumGraph {
     /** Semantic version of the curriculum definition */
     version: string;
     /** Dictionary of module groups/paths */
-    groups?: Record<string, ModuleGroup>;
+    groups?: Record<string, Skill>;
     /** Dictionary of module nodes */
     nodes: Record<string, ModuleGraphNode>;
     /** Skills registry */
-    skills?: Record<string, Skill>;
+    proficiencies?: Record<string, Proficiency>;
 }

@@ -50,8 +50,7 @@
             "description": "Expanding the staff with ledger lines, accidentals, and performance markings.",
             "modules": [
                 "ledger_lines_1",
-                "accidentals",
-                "reading_music_terms"
+                "accidentals"
             ],
             "requiredModuleGroups": [
                 "group_foundations"
@@ -629,32 +628,6 @@
             ],
             "requiredModules": [
                 "eighth_notes"
-            ]
-        },
-        "reading_music_terms": {
-            "id": "reading_music_terms",
-            "metadata": {
-                "title": "Dynamics & Articulation",
-                "description": "How loud? How short? Learn the symbols for piano, forte, staccato, accents, and slurs.",
-                "learningOutcome": "Can interpret stylistic markings to play with expression."
-            },
-            "skills": [
-                {
-                    "id": "skill_reading_music_terms_mastery",
-                    "title": "Mastery of Dynamics & Articulation",
-                    "description": "Capability specific to mod_reading_music_terms.",
-                    "levels": [
-                        {
-                            "id": "skill_reading_music_terms_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can interpret stylistic markings to play with expression."
-                        }
-                    ]
-                }
-            ],
-            "requiredModules": [
-                "first_steps"
             ]
         }
     }

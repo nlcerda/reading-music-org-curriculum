@@ -39,25 +39,25 @@ export interface ExerciseInputSection {
 }
 
 /** A section blueprint in the curriculum JSON. */
-export type LessonInputSection = TextInputSection | ExerciseInputSection;
+export type SessionInputSection = TextInputSection | ExerciseInputSection;
 
 
-// ── Lesson ───────────────────────────────────────────────────────────────────
+// ── Session ──────────────────────────────────────────────────────────────────
 
 /**
- * Represents a single Lesson blueprint within a Module/Course.
+ * Represents a single Session blueprint within a Module.
  * When fetched from the CDN, it looks exactly like this.
  */
-export interface CurriculumLesson {
-    /** Unique identifier for the lesson (e.g. 'les_staff_basics') */
+export interface ModuleSession {
+    /** Unique identifier for the session (e.g. 'les_staff_basics') */
     id: string;
     /** Displayed as the page heading and used in the curriculum menu */
     title: string;
-    /** Short summary of what the lesson teaches */
+    /** Short summary of what the session teaches */
     description?: string;
 
     // --- Mode A: Prompt only ---
-    /** Prompt to generate the entire lesson (text + exercises) in one go. */
+    /** Prompt to generate the entire session (text + exercises) in one go. */
     prompt?: string;
 
     // --- Mode B: Explicit Sections ---
@@ -65,29 +65,145 @@ export interface CurriculumLesson {
      * Ordered list of section blueprints. 
      * If provided, the app will resolve each section individually. 
      */
-    sections?: LessonInputSection[];
+    sections?: SessionInputSection[];
 
     // --- Cache Control ---
-    /** Increment this number in the JSON to invalidate the cached AI generations for this lesson */
+    /** Increment this number in the JSON to invalidate the cached AI generations for this session */
     version?: number;
+    
+    // --- Skills ---
+    /** 
+     * Skills developed in this single session. 
+     * OPTIONAL: Most sessions contribute to the parent Module's skill(s).
+     */
+    skills?: Skill[];
 }
 
 
-// ── Module / Course ──────────────────────────────────────────────────────────
+// ── Module / Course Blueprint ──────────────────────────────────────────────
 
 /**
- * A self-contained unit of study made up of an ordered list of Lessons.
+ * A self-contained unit of study made up of an ordered list of Sessions.
  * Maps 1:1 to files like `modules/mod_first_steps.json`
  */
-export interface CurriculumModule {
+export interface Module {
     /** Unique identifier for the module (e.g. 'mod_first_steps') */
     id: string;
     /** Display title for the module */
     title: string;
     /** Description of the module's overarching goals */
     description?: string;
-    /** The ordered list of lesson blueprints in this module */
-    lessons: CurriculumLesson[];
+    /** The ordered list of session blueprints in this module */
+    sessions: ModuleSession[];
     /** Optional dictionary of reusable exercise templates/prompts for this module */
     exercises?: Record<string, any>;
+
+    /** 
+     * Dependency IDs (Module IDs only). 
+     * The module unlocks when all required modules are mastered.
+     */
+    requiredModules?: string[];
+
+    // --- Skills ---
+    /** 
+     * Skills requiring synthesis of multiple sessions.
+     * IMPORTANT: Must include at least Level 0 (Baseline/Module Passed status)
+     */
+    skills: Skill[];
+}
+
+
+// ── Curriculum Graph (The Main Map) ──────────────────────────────────────────
+
+/**
+ * Registry definition of a capability (e.g., 'rhythm', 'note_reading').
+ */
+export interface Skill {
+    id: string;
+    title: string;
+    description: string;
+}
+
+/**
+ * How we define if a skill has been achieved.
+ */
+export interface SkillLevel {
+    id: string; // e.g., "mod_rhythm_lvl_1"
+    index: number; // 1, 2, 3...
+    /** A human-readable description of the capability. */
+    description: string; 
+    /** 
+     * Specific instructions, parameters, or heuristics intended for the AI "Expert Evaluator".
+     */
+    criteria: string;
+}
+
+/**
+ * A progressive definition of a capability.
+ */
+export interface Skill {
+    id: string;
+    title: string;
+    description: string;
+    /** 
+     * Progression milestones. 
+     * index 0 = Baseline (Passed)
+     * index 1+ = Mastery Levels
+     */
+    levels: SkillLevel[];
+}
+
+/**
+ * An ordered collection of underlying Modules designed to guide a user toward a macro-learning objective.
+ */
+export interface ModuleGroup {
+    id: string;               // e.g., "path_theory_basics"
+    title: string;
+    description: string;
+    modules: string[];        // Array of Module IDs defining the path
+    /** 
+     * Dependency IDs (ModuleGroup IDs only). 
+     * The group unlocks when all required groups are mastered.
+     */
+    requiredModuleGroups?: string[]; 
+    /** 
+     * Skills requiring synthesis of the entire path.
+     * IMPORTANT: Must include at least Level 0 (Baseline/Path Passed status)
+     */
+    skills: Skill[]; 
+}
+
+/**
+ * A node in the high-level curriculum map.
+ * Represents a Module and its position in the dependency graph.
+ */
+export interface ModuleGraphNode {
+    id: string;
+    /** Dependency IDs (Module IDs only) */
+    requiredModules?: string[];
+    /** Display metadata for the map UI */
+    metadata: {
+        title: string;
+        description: string;
+        learningOutcome: string;
+        learningOutcomeFull?: string;
+    };
+    /** Skills attached to this module node (including Level 0 pass threshold) */
+    skills: Skill[];
+}
+
+/**
+ * The root structure of a curriculum map (e.g., music_theory.json).
+ * It is a set of Modules (nodes) + a set of Skills.
+ */
+export interface CurriculumGraph {
+    id: string;
+    /** Semantic version of the curriculum definition */
+    version: string;
+    /** Dictionary of module groups/paths */
+    groups?: Record<string, ModuleGroup>;
+    /** Dictionary of module nodes */
+    nodes: Record<string, ModuleGraphNode>;
+    /** Skills registry */
+    skills?: Record<string, Skill>;
 }

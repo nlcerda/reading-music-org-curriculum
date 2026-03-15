@@ -1,17 +1,17 @@
 {
-    "id": "mod_dotted_rhythms",
+    "id": "dotted_rhythms",
     "title": "Dotted Rhythms",
     "description": "Learn how the dot alters a note's length. Focus on dotted half notes and the dotted-quarter/eighth pair.",
-    "lessons": [
+    "sessions": [
         {
-            "id": "les_the_dot_rule",
+            "id": "the_dot_rule",
             "title": "Adding Half Again",
             "description": "Learn the mathematical rule of the dotted rhythm.",
             "prompt": "Explain how a dot adds half of the original note's value to its total duration. Let's start with the Dotted Half Note in 3/4 and 4/4 time. Provide a reading exercise highlighting dotted half notes.",
             "version": 1
         },
         {
-            "id": "les_dotted_quarter_eighth",
+            "id": "dotted_quarter_eighth",
             "title": "The Gallop",
             "description": "Master the dotted-quarter followed by an eighth note figure.",
             "prompt": "Teach the common dotted-quarter / eighth note rhythm pair. It takes up exactly two beats. Provide an exercise mixing this figure with standard quarter notes in 4/4 time to practice the syncopated feel.",

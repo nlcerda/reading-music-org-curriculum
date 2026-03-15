@@ -1,17 +1,17 @@
 {
-    "id": "mod_ledger_lines_1",
+    "id": "ledger_lines_1",
     "title": "Ledger Lines: Just Outside the Staff",
     "description": "Learn to read notes up to two ledger lines above and below the Treble and Bass clefs.",
-    "lessons": [
+    "sessions": [
         {
-            "id": "les_treble_ledger",
+            "id": "treble_ledger",
             "title": "Reaching Higher",
             "description": "Learn notes above and below the Treble Clef.",
             "prompt": "Explain ledger lines. Teach the notes immediately above the Treble Clef (G5, A5, B5, C6) and immediately below (D4, Middle C4). Present a reading exercise containing melodies that cross into these outer boundaries.",
             "version": 1
         },
         {
-            "id": "les_bass_ledger",
+            "id": "bass_ledger",
             "title": "Reaching Lower",
             "description": "Learn notes above and below the Bass Clef.",
             "prompt": "Explain the ledger lines immediately below the Bass Clef (F2, E2, D2, C2) and immediately above (B3, Middle C4). Present a reading exercise focusing on these low and high extensions in the bass clef.",

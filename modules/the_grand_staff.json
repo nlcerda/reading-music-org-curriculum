@@ -1,18 +1,18 @@
 {
-    "id": "mod_the_grand_staff",
+    "id": "the_grand_staff",
     "title": "The Grand Staff & Middle C",
     "description": "See how the Treble and Bass clefs connect to form the Grand Staff, bridged by Middle C.",
-    "lessons": [
+    "sessions": [
         {
-            "id": "les_middle_c_bridge",
+            "id": "middle_c_bridge",
             "title": "The Middle C Bridge",
             "description": "Understand how Middle C connects the two clefs.",
             "prompt": "Explain the Grand Staff. Show how Middle C sits exactly between the Treble and Bass clefs. Create exercises that alternate playing Middle C in the Treble clef and the Bass clef to solidify this connection visually.",
             "version": 1
         },
         {
-            "id": "les_grand_staff_reading",
-            "title": "Two Hands Playing",
+            "id": "grand_staff_reading",
+            "title": "Alternating Clefs",
             "description": "Read simple melodies that cross between clefs.",
             "prompt": "Create simple two-handed exercises on the Grand Staff. Keep it to alternating hands (not playing simultaneously yet). For example, a measure in the bass clef followed by a measure in the treble clef, moving smoothly through Middle C.",
             "version": 1

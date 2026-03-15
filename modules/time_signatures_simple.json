@@ -1,24 +1,24 @@
 {
-    "id": "mod_time_signatures_simple",
+    "id": "time_signatures_simple",
     "title": "Simple Time Signatures",
     "description": "Learn how music is grouped into measures. Covers 4/4 (Common Time), 3/4, and 2/4.",
-    "lessons": [
+    "sessions": [
         {
-            "id": "les_4_4_time",
+            "id": "4_4_time",
             "title": "Common Time",
             "description": "Understanding the most popular meter: 4/4 time.",
             "prompt": "Explain the concept of time signatures and measures. Focus specifically on 4/4 time (Common Time). Explain what the top and bottom numbers mean. Give an interactive rhythm exercise in 4/4 time.",
             "version": 1
         },
         {
-            "id": "les_3_4_time",
+            "id": "3_4_time",
             "title": "The Waltz Feel",
             "description": "Understanding 3/4 time.",
             "prompt": "Explain 3/4 time signature. Describe its waltz-like, grouping-of-three feel. Give an interactive rhythm exercise in 3/4 time using quarter, half, and dotted half notes.",
             "version": 1
         },
         {
-            "id": "les_2_4_time",
+            "id": "2_4_time",
             "title": "The March",
             "description": "Understanding 2/4 time.",
             "prompt": "Explain 2/4 time signature, often associated with a march feel. Give an interactive rhythm exercise in 2/4 time mixing quarter notes, 8th notes, and rests.",

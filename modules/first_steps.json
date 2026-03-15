@@ -1,10 +1,10 @@
 {
-    "id": "mod_first_steps",
+    "id": "first_steps",
     "title": "First Steps: Intro to Music",
     "description": "The absolute basics of how music is written. Learn what a staff is, how notes go up and down, and the fundamental concept of a steady beat.",
-    "lessons": [
+    "sessions": [
         {
-            "id": "les_staff_basics",
+            "id": "staff_basics",
             "title": "The Musical Grid",
             "description": "Learn what the 5 lines and 4 spaces mean.",
             "prompt": "Teach the user the basic elements of a score. Help them find Middle C, and then teach them how to play C, D, and E. DO NOT use ASCII art or text-based drawings.",
@@ -31,14 +31,14 @@
             "version": 9
         },
         {
-            "id": "les_pitch_direction",
-            "title": "Going Up and Down",
+            "id": "pitch_direction",
+            "title": "Pitch Direction & The 5-Finger Position",
             "description": "Understand how notes moving on the staff relate to pitch.",
             "prompt": "Explain the concept of pitch direction: higher on the staff means higher pitch, lower means lower. Introduce the notes F and G to complete the 5-finger C major position. Create simple exercises stepping up from C to G and back down.",
             "version": 1
         },
         {
-            "id": "les_steady_beat",
+            "id": "steady_beat",
             "title": "The Steady Beat",
             "description": "Feel the underlying pulse of music.",
             "prompt": "Introduce the concept of a steady beat and basic rhythm. Teach the difference in duration between whole notes, half notes, and quarter notes in 4/4 time. Create simple exercises using only the C major 5-finger position that mixes these note values.",

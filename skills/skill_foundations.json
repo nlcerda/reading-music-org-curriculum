@@ -1,0 +1,27 @@
+{
+    "id": "skill_foundations",
+    "title": "Music Foundations",
+    "description": "Learn the absolute basics of the staff, simple rhythm, and the dual-clef system.",
+    "modules": [
+        "first_steps",
+        "basic_rhythm",
+        "treble_clef",
+        "bass_clef",
+        "the_grand_staff"
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_foundations_mastery",
+            "title": "Foundational Fluency",
+            "description": "The ability to navigate the basic grid of music.",
+            "levels": [
+                {
+                    "id": "prof_foundations_mastery_lvl0",
+                    "index": 0,
+                    "description": "Baseline",
+                    "criteria": "User can navigate the staff and simple rhythms without friction."
+                }
+            ]
+        }
+    ]
+}

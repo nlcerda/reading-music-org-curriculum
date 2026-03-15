@@ -1,0 +1,30 @@
+{
+    "id": "skill_rhythm_mastery",
+    "title": "Rhythm & Subdivision",
+    "description": "Mastering eighth notes, sixteenth notes, and complex divisions of time.",
+    "modules": [
+        "eighth_notes",
+        "time_signatures_simple",
+        "dotted_rhythms",
+        "sixteenth_notes",
+        "compound_time"
+    ],
+    "requiredSkills": [
+        "skill_foundations"
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_rhythmic_precision",
+            "title": "Rhythmic Precision",
+            "description": "The ability to maintain perfect timing across subdivisions.",
+            "levels": [
+                {
+                    "id": "prof_rhythmic_precision_lvl0",
+                    "index": 0,
+                    "description": "Baseline",
+                    "criteria": "User can perform 16th notes and dotted rhythms at a steady tempo."
+                }
+            ]
+        }
+    ]
+}

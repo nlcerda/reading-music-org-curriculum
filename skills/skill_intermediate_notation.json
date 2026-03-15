@@ -1,0 +1,27 @@
+{
+    "id": "skill_intermediate_notation",
+    "title": "Intermediate Notation",
+    "description": "Expanding the staff with ledger lines, accidentals, and performance markings.",
+    "modules": [
+        "ledger_lines_1",
+        "accidentals"
+    ],
+    "requiredSkills": [
+        "skill_foundations"
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_notation_fluency",
+            "title": "Notation Fluency",
+            "description": "Reading beyond the 5-line staff.",
+            "levels": [
+                {
+                    "id": "prof_notation_fluency_lvl0",
+                    "index": 0,
+                    "description": "Baseline",
+                    "criteria": "User can read ledger lines and process accidentals fluidly."
+                }
+            ]
+        }
+    ]
+}

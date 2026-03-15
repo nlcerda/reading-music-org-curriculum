@@ -1,0 +1,32 @@
+{
+    "id": "skill_harmony_scales",
+    "title": "Scales & Harmony",
+    "description": "Deep dive into the Major/Minor system, key signatures, and chord construction.",
+    "modules": [
+        "c_major_scale",
+        "intervals_basic",
+        "key_signatures_sharp",
+        "key_signatures_flat",
+        "minor_scales",
+        "triads_major_minor",
+        "triad_inversions"
+    ],
+    "requiredSkills": [
+        "skill_foundations"
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_harmonic_awareness",
+            "title": "Harmonic Awareness",
+            "description": "Understanding the DNA of music theory.",
+            "levels": [
+                {
+                    "id": "prof_harmonic_awareness_lvl0",
+                    "index": 0,
+                    "description": "Baseline",
+                    "criteria": "User can identify keys and construct basic triads."
+                }
+            ]
+        }
+    ]
+}

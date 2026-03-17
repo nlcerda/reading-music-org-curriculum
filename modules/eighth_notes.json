@@ -17,5 +17,20 @@
             "prompt": "Introduce the eighth rest symbol. Provide an exercise in 4/4 time combining quarter notes, beamed eighth notes, and off-beat eighth notes (an eighth rest followed by an eighth note) on Middle C.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_eighth_notes_mastery",
+            "title": "Mastery of Eighth Notes & Subdivisions",
+            "description": "Capability specific to mod_eighth_notes.",
+            "levels": [
+                {
+                    "id": "prof_eighth_notes_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can accurately count and perform '1 and 2 and' rhythms."
+                }
+            ]
+        }
     ]
 }

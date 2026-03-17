@@ -17,5 +17,20 @@
             "prompt": "Create rhythms mixing one 8th note with two 16th notes (the 'strawberry' or 'blueberry' rhythms). Provide challenging but slow exercises to practice these mixed subdivisions accurately. Keep the focus entirely on rhythm by only using Middle C.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_sixteenth_notes_mastery",
+            "title": "Mastery of 16th Notes & Faster Rhythms",
+            "description": "Capability specific to mod_sixteenth_notes.",
+            "levels": [
+                {
+                    "id": "prof_sixteenth_notes_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can count '1 e & a' fluidly."
+                }
+            ]
+        }
     ]
 }

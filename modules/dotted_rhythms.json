@@ -17,5 +17,20 @@
             "prompt": "Teach the common dotted-quarter / eighth note rhythm pair. It takes up exactly two beats. Provide an exercise mixing this figure with standard quarter notes in 4/4 time to practice the syncopated feel.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_dotted_rhythms_mastery",
+            "title": "Mastery of Dotted Rhythms",
+            "description": "Capability specific to mod_dotted_rhythms.",
+            "levels": [
+                {
+                    "id": "prof_dotted_rhythms_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can accurately perform syncopated and dotted rhythmic figures."
+                }
+            ]
+        }
     ]
 }

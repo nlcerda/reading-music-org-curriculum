@@ -1,8 +1,10 @@
 {
     "id": "skill_rhythm_mastery",
-    "title": "Rhythm & Subdivision",
-    "description": "Mastering eighth notes, sixteenth notes, and complex divisions of time.",
-    "modules": [
+    "metadata": {
+        "title": "Rhythm & Subdivision",
+        "description": "Mastering eighth notes, sixteenth notes, and complex divisions of time."
+    },
+    "moduleIds": [
         "eighth_notes",
         "time_signatures_simple",
         "dotted_rhythms",

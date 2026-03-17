@@ -1,8 +1,10 @@
 {
     "id": "skill_harmony_scales",
-    "title": "Scales & Harmony",
-    "description": "Deep dive into the Major/Minor system, key signatures, and chord construction.",
-    "modules": [
+    "metadata": {
+        "title": "Scales & Harmony",
+        "description": "Deep dive into the Major/Minor system, key signatures, and chord construction."
+    },
+    "moduleIds": [
         "c_major_scale",
         "intervals_basic",
         "key_signatures_sharp",

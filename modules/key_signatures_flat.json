@@ -17,5 +17,20 @@
             "prompt": "Teach the fast rule for finding a Flat Major key: The second-to-last flat IS the name of the key (except for F major with one flat, which must be memorized). Provide an exercise presenting various flat key signatures and asking the user to play the correct tonic.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_key_signatures_flat_mastery",
+            "title": "Mastery of Flat Key Signatures",
+            "description": "Capability specific to mod_key_signatures_flat.",
+            "levels": [
+                {
+                    "id": "prof_key_signatures_flat_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can instantly name a major key by looking at its flat signature."
+                }
+            ]
+        }
     ]
 }

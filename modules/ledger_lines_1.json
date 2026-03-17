@@ -17,5 +17,20 @@
             "prompt": "Explain the ledger lines immediately below the Bass Clef (F2, E2, D2, C2) and immediately above (B3, Middle C4). Present a reading exercise focusing on these low and high extensions in the bass clef.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_ledger_lines_1_mastery",
+            "title": "Mastery of Ledger Lines: Just Outside the Staff",
+            "description": "Capability specific to mod_ledger_lines_1.",
+            "levels": [
+                {
+                    "id": "prof_ledger_lines_1_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Comfortably reads an extended range suitable for intermediate sheet music."
+                }
+            ]
+        }
     ]
 }

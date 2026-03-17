@@ -17,5 +17,20 @@
             "prompt": "Explain scale degrees (1st through 8th) using the C Major scale. Provide a melody in C major and ask questions about the function of notes, ending the exercise on the 'tonic' (1st degree) to demonstrate resolution.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_c_major_scale_mastery",
+            "title": "Mastery of The C Major Scale",
+            "description": "Capability specific to mod_c_major_scale.",
+            "levels": [
+                {
+                    "id": "prof_c_major_scale_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Knows the formula W-W-H-W-W-W-H and can construct C Major."
+                }
+            ]
+        }
     ]
 }

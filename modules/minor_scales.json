@@ -17,5 +17,20 @@
             "prompt": "Explore the A natural minor scale, the relative minor of C major (all white keys). Discuss the difference in interval structure that gives it a different mood. Provide an exercise to play the A natural minor scale.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_minor_scamastery",
+            "title": "Mastery of Relative Minor Keys",
+            "description": "Capability specific to mod_minor_scales.",
+            "levels": [
+                {
+                    "id": "prof_minor_scalvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can identify both the Major and Minor key a signature represents."
+                }
+            ]
+        }
     ]
 }

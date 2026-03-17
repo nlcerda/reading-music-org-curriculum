@@ -1,27 +1,73 @@
 {
     "id": "core_music_theory",
     "version": "2.0",
-    "proficiencies": {
-        "prof_grand_sight_reading": {
-            "id": "prof_grand_sight_reading",
-            "title": "Comprehensive Sight Reading",
-            "description": "The ultimate mastery of reading music on the grand staff.",
-            "levels": [
-                {
-                    "id": "prof_grand_sight_reading_lvl0",
-                    "index": 0,
-                    "description": "Grand Staff Baseline",
-                    "criteria": "User has reached baseline proficiency across both Treble and Bass clefs."
-                }
+    "skills": {
+        "skill_foundations": {
+            "id": "skill_foundations",
+            "metadata": {
+                "title": "Music Foundations",
+                "description": "Learn the absolute basics of the staff, simple rhythm, and the dual-clef system."
+            },
+            "moduleIds": [
+                "first_steps",
+                "basic_rhythm",
+                "treble_clef",
+                "bass_clef",
+                "the_grand_staff"
+            ],
+            "requiredSkills": []
+        },
+        "skill_intermediate_notation": {
+            "id": "skill_intermediate_notation",
+            "metadata": {
+                "title": "Intermediate Notation",
+                "description": "Expanding the staff with ledger lines, accidentals, and performance markings."
+            },
+            "moduleIds": [
+                "ledger_lines_1",
+                "accidentals"
+            ],
+            "requiredSkills": [
+                "skill_foundations"
+            ]
+        },
+        "skill_rhythm_mastery": {
+            "id": "skill_rhythm_mastery",
+            "metadata": {
+                "title": "Rhythm & Subdivision",
+                "description": "Mastering eighth notes, sixteenth notes, and complex divisions of time."
+            },
+            "moduleIds": [
+                "eighth_notes",
+                "time_signatures_simple",
+                "dotted_rhythms",
+                "sixteenth_notes",
+                "compound_time"
+            ],
+            "requiredSkills": [
+                "skill_foundations"
+            ]
+        },
+        "skill_harmony_scales": {
+            "id": "skill_harmony_scales",
+            "metadata": {
+                "title": "Scales & Harmony",
+                "description": "Deep dive into the Major/Minor system, key signatures, and chord construction."
+            },
+            "moduleIds": [
+                "c_major_scale",
+                "intervals_basic",
+                "key_signatures_sharp",
+                "key_signatures_flat",
+                "minor_scales",
+                "triads_major_minor",
+                "triad_inversions"
+            ],
+            "requiredSkills": [
+                "skill_foundations"
             ]
         }
     },
-    "skills": [
-        "skill_foundations",
-        "skill_intermediate_notation",
-        "skill_rhythm_mastery",
-        "skill_harmony_scales"
-    ],
     "nodes": {
         "first_steps": {
             "id": "first_steps",
@@ -30,21 +76,7 @@
                 "description": "The absolute basics of how music is written. Learn what a staff is, how notes go up and down, and the fundamental concept of a steady beat.",
                 "learningOutcome": "Understands the basic grid of written music (pitch vs time). Can identify C4, D4 and E4 on a G clef staff."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_first_steps_mastery",
-                    "title": "Mastery of First Steps: Intro to Music",
-                    "description": "Capability specific to mod_first_steps.",
-                    "levels": [
-                        {
-                            "id": "prof_first_steps_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Understands the basic grid of written music (pitch vs time). Can identify C4, D4 and E4 on a G clef staff."
-                        }
-                    ]
-                }
-            ]
+            "requiredModules": []
         },
         "basic_rhythm": {
             "id": "basic_rhythm",
@@ -53,21 +85,6 @@
                 "description": "Learn the most common note durations: whole, half, quarter, and their corresponding rests.",
                 "learningOutcome": "Can clap or tap basic rhythmic patterns."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_basic_rhythm_mastery",
-                    "title": "Mastery of Basic Rhythm & Rests",
-                    "description": "Capability specific to mod_basic_rhythm.",
-                    "levels": [
-                        {
-                            "id": "prof_basic_rhythm_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can clap or tap basic rhythmic patterns."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "first_steps"
             ]
@@ -79,21 +96,6 @@
                 "description": "Learn the letter names of the lines and spaces specifically for the Treble Clef (G Clef).",
                 "learningOutcome": "Can fluently name notes from E4 to F5."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_treble_clef_mastery",
-                    "title": "Mastery of Reading the Treble Clef",
-                    "description": "Capability specific to mod_treble_clef.",
-                    "levels": [
-                        {
-                            "id": "prof_treble_clef_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can fluently name notes from E4 to F5."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "first_steps"
             ]
@@ -105,21 +107,6 @@
                 "description": "Learn the letter names of the lines and spaces for the Bass Clef (F Clef).",
                 "learningOutcome": "Can fluently name notes from G2 to A3."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_bass_clef_mastery",
-                    "title": "Mastery of Reading the Bass Clef",
-                    "description": "Capability specific to mod_bass_clef.",
-                    "levels": [
-                        {
-                            "id": "prof_bass_clef_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can fluently name notes from G2 to A3."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "first_steps"
             ]
@@ -131,21 +118,6 @@
                 "description": "See how the Treble and Bass clefs connect to form the Grand Staff, bridged by Middle C.",
                 "learningOutcome": "Understands the continuous relationship of pitches across both clefs."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_the_grand_staff_mastery",
-                    "title": "Mastery of The Grand Staff & Middle C",
-                    "description": "Capability specific to mod_the_grand_staff.",
-                    "levels": [
-                        {
-                            "id": "prof_the_grand_staff_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Understands the continuous relationship of pitches across both clefs."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "treble_clef",
                 "bass_clef"
@@ -158,21 +130,6 @@
                 "description": "Break the beat in half. Learn to read and perform pairs of eighth notes and eighth rests.",
                 "learningOutcome": "Can accurately count and perform '1 and 2 and' rhythms."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_eighth_notes_mastery",
-                    "title": "Mastery of Eighth Notes & Subdivisions",
-                    "description": "Capability specific to mod_eighth_notes.",
-                    "levels": [
-                        {
-                            "id": "prof_eighth_notes_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can accurately count and perform '1 and 2 and' rhythms."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "basic_rhythm"
             ]
@@ -184,21 +141,6 @@
                 "description": "Learn how music is grouped into measures. Covers 4/4 (Common Time), 3/4, and 2/4.",
                 "learningOutcome": "Can identify the meter of a piece and place bar lines correctly."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_time_signatures_simple_mastery",
-                    "title": "Mastery of Simple Time Signatures",
-                    "description": "Capability specific to mod_time_signatures_simple.",
-                    "levels": [
-                        {
-                            "id": "prof_time_signatures_simple_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can identify the meter of a piece and place bar lines correctly."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "basic_rhythm"
             ]
@@ -210,21 +152,6 @@
                 "description": "Learn to read notes up to two ledger lines above and below the Treble and Bass clefs.",
                 "learningOutcome": "Comfortably reads an extended range suitable for intermediate sheet music."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_ledger_lines_1_mastery",
-                    "title": "Mastery of Ledger Lines: Just Outside the Staff",
-                    "description": "Capability specific to mod_ledger_lines_1.",
-                    "levels": [
-                        {
-                            "id": "prof_ledger_lines_1_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Comfortably reads an extended range suitable for intermediate sheet music."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "the_grand_staff"
             ]
@@ -236,21 +163,6 @@
                 "description": "Introduction to chromatic alteration using accidental symbols.",
                 "learningOutcome": "Understands how to raise or lower a pitch by a half-step."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_accidentals_mastery",
-                    "title": "Mastery of Sharps, Flats, & Naturals",
-                    "description": "Capability specific to mod_accidentals.",
-                    "levels": [
-                        {
-                            "id": "prof_accidentals_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Understands how to raise or lower a pitch by a half-step."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "the_grand_staff"
             ]
@@ -262,21 +174,6 @@
                 "description": "The foundation of Western harmony. Learn the specific pattern of whole and half steps that builds a Major scale.",
                 "learningOutcome": "Knows the formula W-W-H-W-W-W-H and can construct C Major."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_c_major_scale_mastery",
-                    "title": "Mastery of The C Major Scale",
-                    "description": "Capability specific to mod_c_major_scale.",
-                    "levels": [
-                        {
-                            "id": "prof_c_major_scale_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Knows the formula W-W-H-W-W-W-H and can construct C Major."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "accidentals"
             ]
@@ -288,21 +185,6 @@
                 "description": "Learn to instantly recognize the distance between two notes on the staff (2nds, 3rds, 4ths, 5ths, etc.).",
                 "learningOutcome": "Can visually identify the numeric size of an interval without counting lines."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_intervals_basic_mastery",
-                    "title": "Mastery of Basic Intervals (Numeric)",
-                    "description": "Capability specific to mod_intervals_basic.",
-                    "levels": [
-                        {
-                            "id": "prof_intervals_basic_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can visually identify the numeric size of an interval without counting lines."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "c_major_scale"
             ]
@@ -314,21 +196,6 @@
                 "description": "Learn the order of sharps and how to identify major keys from G to B.",
                 "learningOutcome": "Can instantly name a major key by looking at its sharp signature."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_key_signatures_sharp_mastery",
-                    "title": "Mastery of Sharp Key Signatures",
-                    "description": "Capability specific to mod_key_signatures_sharp.",
-                    "levels": [
-                        {
-                            "id": "prof_key_signatures_sharp_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can instantly name a major key by looking at its sharp signature."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "c_major_scale"
             ]
@@ -340,21 +207,6 @@
                 "description": "Learn the order of flats and how to identify major keys from F to Db.",
                 "learningOutcome": "Can instantly name a major key by looking at its flat signature."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_key_signatures_flat_mastery",
-                    "title": "Mastery of Flat Key Signatures",
-                    "description": "Capability specific to mod_key_signatures_flat.",
-                    "levels": [
-                        {
-                            "id": "prof_key_signatures_flat_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can instantly name a major key by looking at its flat signature."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "c_major_scale"
             ]
@@ -366,21 +218,6 @@
                 "description": "Discover the 'sad' sibling of every major key. Learn how to find the relative minor.",
                 "learningOutcome": "Can identify both the Major and Minor key a signature represents."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_minor_scamastery",
-                    "title": "Mastery of Relative Minor Keys",
-                    "description": "Capability specific to mod_minor_scales.",
-                    "levels": [
-                        {
-                            "id": "prof_minor_scalvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can identify both the Major and Minor key a signature represents."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "key_signatures_sharp",
                 "key_signatures_flat"
@@ -393,21 +230,6 @@
                 "description": "Learn how the dot alters a note's length. Focus on dotted half notes and the dotted-quarter/eighth pair.",
                 "learningOutcome": "Can accurately perform syncopated and dotted rhythmic figures."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_dotted_rhythms_mastery",
-                    "title": "Mastery of Dotted Rhythms",
-                    "description": "Capability specific to mod_dotted_rhythms.",
-                    "levels": [
-                        {
-                            "id": "prof_dotted_rhythms_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can accurately perform syncopated and dotted rhythmic figures."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "eighth_notes",
                 "time_signatures_simple"
@@ -420,21 +242,6 @@
                 "description": "Explore meters where the beat naturally divides into threes instead of twos.",
                 "learningOutcome": "Can feel and count music in compound meter without confusing it for triplets."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_compound_time_mastery",
-                    "title": "Mastery of Compound Time (6/8, 9/8)",
-                    "description": "Capability specific to mod_compound_time.",
-                    "levels": [
-                        {
-                            "id": "prof_compound_time_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can feel and count music in compound meter without confusing it for triplets."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "dotted_rhythms"
             ]
@@ -446,21 +253,6 @@
                 "description": "Stacking thirds to build basic chords. Learn the difference between Major and minor triads.",
                 "learningOutcome": "Can construct and identify root-position Major and minor triads."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_triads_major_minor_mastery",
-                    "title": "Mastery of Major & Minor Triads",
-                    "description": "Capability specific to mod_triads_major_minor.",
-                    "levels": [
-                        {
-                            "id": "prof_triads_major_minor_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can construct and identify root-position Major and minor triads."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "intervals_basic",
                 "minor_scales"
@@ -473,21 +265,6 @@
                 "description": "Learn what happens when the root isn't on the bottom. Covers 1st and 2nd inversions.",
                 "learningOutcome": "Can identify standard triads regardless of voicing order."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_triad_inversions_mastery",
-                    "title": "Mastery of Chord Inversions",
-                    "description": "Capability specific to mod_triad_inversions.",
-                    "levels": [
-                        {
-                            "id": "prof_triad_inversions_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can identify standard triads regardless of voicing order."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "triads_major_minor"
             ]
@@ -499,21 +276,6 @@
                 "description": "Breaking beats into quarters. Learn how to read grouping of four 16th notes.",
                 "learningOutcome": "Can count '1 e & a' fluidly."
             },
-            "proficiencies": [
-                {
-                    "id": "prof_sixteenth_notes_mastery",
-                    "title": "Mastery of 16th Notes & Faster Rhythms",
-                    "description": "Capability specific to mod_sixteenth_notes.",
-                    "levels": [
-                        {
-                            "id": "prof_sixteenth_notes_lvl0",
-                            "index": 0,
-                            "description": "Baseline Proficiency",
-                            "criteria": "Can count '1 e & a' fluidly."
-                        }
-                    ]
-                }
-            ],
             "requiredModules": [
                 "eighth_notes"
             ]

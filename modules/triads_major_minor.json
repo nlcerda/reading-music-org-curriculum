@@ -17,5 +17,20 @@
             "prompt": "Teach the minor triad by taking a Major triad and lowering the 3rd by a half step. Use A minor and D minor as examples. Create an exercise where major chords and minor chords are mixed together for the user to read and play.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_triads_major_minor_mastery",
+            "title": "Mastery of Major & Minor Triads",
+            "description": "Capability specific to mod_triads_major_minor.",
+            "levels": [
+                {
+                    "id": "prof_triads_major_minor_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can construct and identify root-position Major and minor triads."
+                }
+            ]
+        }
     ]
 }

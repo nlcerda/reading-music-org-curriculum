@@ -1,8 +1,10 @@
 {
     "id": "skill_foundations",
-    "title": "Music Foundations",
-    "description": "Learn the absolute basics of the staff, simple rhythm, and the dual-clef system.",
-    "modules": [
+    "metadata": {
+        "title": "Music Foundations",
+        "description": "Learn the absolute basics of the staff, simple rhythm, and the dual-clef system."
+    },
+    "moduleIds": [
         "first_steps",
         "basic_rhythm",
         "treble_clef",

@@ -24,5 +24,20 @@
             "prompt": "Explain the natural symbol and the rule that accidentals carry through the measure but reset at the bar line. Provide an exercise demonstrating an accidental note followed by its natural version within the same measure.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_accidentals_mastery",
+            "title": "Mastery of Sharps, Flats, & Naturals",
+            "description": "Capability specific to mod_accidentals.",
+            "levels": [
+                {
+                    "id": "prof_accidentals_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Understands how to raise or lower a pitch by a half-step."
+                }
+            ]
+        }
     ]
 }

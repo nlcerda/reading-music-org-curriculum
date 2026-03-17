@@ -17,5 +17,20 @@
             "prompt": "Create simple two-handed exercises on the Grand Staff. Keep it to alternating hands (not playing simultaneously yet). For example, a measure in the bass clef followed by a measure in the treble clef, moving smoothly through Middle C.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_the_grand_staff_mastery",
+            "title": "Mastery of The Grand Staff & Middle C",
+            "description": "Capability specific to mod_the_grand_staff.",
+            "levels": [
+                {
+                    "id": "prof_the_grand_staff_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Understands the continuous relationship of pitches across both clefs."
+                }
+            ]
+        }
     ]
 }

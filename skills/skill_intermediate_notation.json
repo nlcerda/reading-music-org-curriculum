@@ -1,8 +1,10 @@
 {
     "id": "skill_intermediate_notation",
-    "title": "Intermediate Notation",
-    "description": "Expanding the staff with ledger lines, accidentals, and performance markings.",
-    "modules": [
+    "metadata": {
+        "title": "Intermediate Notation",
+        "description": "Expanding the staff with ledger lines, accidentals, and performance markings."
+    },
+    "moduleIds": [
         "ledger_lines_1",
         "accidentals"
     ],

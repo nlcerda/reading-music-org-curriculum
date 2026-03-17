@@ -17,5 +17,20 @@
             "prompt": "Extend the concept of compound time to 9/8 (three big beats per measure) and 12/8 (four big beats per measure, like the blues). Provide an interactive exercise reading rhythms in 12/8 time.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_compound_time_mastery",
+            "title": "Mastery of Compound Time (6/8, 9/8)",
+            "description": "Capability specific to mod_compound_time.",
+            "levels": [
+                {
+                    "id": "prof_compound_time_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can feel and count music in compound meter without confusing it for triplets."
+                }
+            ]
+        }
     ]
 }

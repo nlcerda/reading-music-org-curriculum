@@ -17,5 +17,20 @@
             "prompt": "Explain second inversion: the fifth is the lowest note. Explain the visual shape (a fourth interval with a third stacked on top). Provide an exercise playing chord progressions linking root position (I) to second inversion (I6/4) chords.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_triad_inversions_mastery",
+            "title": "Mastery of Chord Inversions",
+            "description": "Capability specific to mod_triad_inversions.",
+            "levels": [
+                {
+                    "id": "prof_triad_inversions_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can identify standard triads regardless of voicing order."
+                }
+            ]
+        }
     ]
 }

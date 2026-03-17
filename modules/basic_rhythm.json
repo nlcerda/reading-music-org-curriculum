@@ -17,5 +17,20 @@
             "prompt": "Create exercises combining whole, half, and quarter notes with their corresponding rests in 4/4 time. Use only the note Middle C to keep the focus entirely on rhythm reading rather than pitch reading.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_basic_rhythm_mastery",
+            "title": "Mastery of Basic Rhythm & Rests",
+            "description": "Capability specific to mod_basic_rhythm.",
+            "levels": [
+                {
+                    "id": "prof_basic_rhythm_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can clap or tap basic rhythmic patterns."
+                }
+            ]
+        }
     ]
 }

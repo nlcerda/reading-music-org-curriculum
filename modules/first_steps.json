@@ -7,8 +7,8 @@
             "id": "staff_basics",
             "title": "The Musical Grid",
             "description": "Learn what the 5 lines and 4 spaces mean.",
-            "prompt": "Explain me about the elements of a basic sheet, the musical staff, treble clef, time signature and notes, explain superficially, show an exercise with only a single bar and two half middle Cs, then explain the user how to find the middle C and play it on the exercise.",
-            "version": 12
+            "prompt": "Do not assume I have any knowledge about any music concept at all, every used concept must be introduced. Explain all the basic sheet music elements and use a basic one hand exercise with two bars, each with to half middle c, use this exercise to help the user recognize the main elements, and understand how to use the app controls to practice.",
+            "version": 17
         },
         {
             "id": "pitch_direction",
@@ -23,6 +23,33 @@
             "description": "Feel the underlying pulse of music.",
             "prompt": "Introduce the concept of a steady beat and basic rhythm. Teach the difference in duration between whole notes, half notes, and quarter notes in 4/4 time. Create simple exercises using only the C major 5-finger position that mixes these note values.",
             "version": 1
+        }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_first_steps_mastery",
+            "title": "Mastery of First Steps: Intro to Music",
+            "description": "Capability specific to mod_first_steps.",
+            "levels": [
+                {
+                    "id": "prof_first_steps_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Generate a simple exercise using only middle C, D4, and E4. The exercise should focus on basic pitch recognition on the Treble clef. Do not use notes outside this range."
+                },
+                {
+                    "id": "prof_first_steps_lvl1",
+                    "index": 1,
+                    "description": "Expanded 5-Finger Position",
+                    "criteria": "Generate an exercise using the full C major 5-finger position (C4 to G4)."
+                },
+                {
+                    "id": "prof_first_steps_lvl2",
+                    "index": 2,
+                    "description": "Rhythmic Integration",
+                    "criteria": "Generate an exercise using the C major 5-finger position (C4 to G4) with mixed durations."
+                }
+            ]
         }
     ]
 }

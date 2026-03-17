@@ -24,5 +24,20 @@
             "prompt": "Combine Treble Clef line and space notes. Provide exercises with melodic fragments spanning from E4 to F5. Focus on step-wise motion and small skips.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_treble_clef_mastery",
+            "title": "Mastery of Reading the Treble Clef",
+            "description": "Capability specific to mod_treble_clef.",
+            "levels": [
+                {
+                    "id": "prof_treble_clef_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can fluently name notes from E4 to F5."
+                }
+            ]
+        }
     ]
 }

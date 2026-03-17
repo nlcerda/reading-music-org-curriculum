@@ -24,5 +24,20 @@
             "prompt": "Combine Bass Clef line and space notes. Provide exercises with melodic fragments spanning from G2 to A3. Focus on step-wise motion and small skips.",
             "version": 1
         }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_bass_clef_mastery",
+            "title": "Mastery of Reading the Bass Clef",
+            "description": "Capability specific to mod_bass_clef.",
+            "levels": [
+                {
+                    "id": "prof_bass_clef_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can fluently name notes from G2 to A3."
+                }
+            ]
+        }
     ]
 }

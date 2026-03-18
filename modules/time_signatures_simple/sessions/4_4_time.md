@@ -1,0 +1,1 @@
+Explain the concept of time signatures and measures. Focus specifically on 4/4 time (Common Time). Explain what the top and bottom numbers mean. Give an interactive rhythm exercise in 4/4 time.

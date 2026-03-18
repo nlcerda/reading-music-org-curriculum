@@ -1,0 +1,1 @@
+Explain 3/4 time signature. Describe its waltz-like, grouping-of-three feel. Give an interactive rhythm exercise in 3/4 time using quarter, half, and dotted half notes.

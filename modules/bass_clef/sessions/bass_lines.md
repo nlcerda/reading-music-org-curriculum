@@ -1,0 +1,1 @@
+Teach the notes on the lines of the Bass Clef: G, B, D, F, A. Use common mnemonics as examples but focus on the visual position. Provide interactive exercises that present these line notes randomly and ask the user to play them.

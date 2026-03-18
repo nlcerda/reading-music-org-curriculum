@@ -1,0 +1,41 @@
+{
+  "id": "treble_clef",
+  "title": "Reading the Treble Clef",
+  "description": "Learn the letter names of the lines and spaces specifically for the Treble Clef (G Clef).",
+  "sessions": [
+    {
+      "id": "treble_lines",
+      "title": "Treble Clef: Line Notes",
+      "description": "Learn the notes on the five lines of the Treble Clef: E4, G4, B4, D5, F5.",
+      "version": 1
+    },
+    {
+      "id": "treble_spaces",
+      "title": "Treble Clef: Space Notes",
+      "description": "Learn the notes in the four spaces of the Treble Clef: F4, A4, C5, E5.",
+      "version": 1
+    },
+    {
+      "id": "treble_review",
+      "title": "Treble Clef Review",
+      "description": "Mix lines and spaces together for the full Treble Clef staff.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_treble_clef_mastery",
+      "title": "Mastery of Reading the Treble Clef",
+      "description": "Capability specific to mod_treble_clef.",
+      "levels": [
+        {
+          "id": "prof_treble_clef_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can fluently name notes from E4 to F5."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

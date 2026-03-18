@@ -1,0 +1,1 @@
+Explain 2/4 time signature, often associated with a march feel. Give an interactive rhythm exercise in 2/4 time mixing quarter notes, 8th notes, and rests.

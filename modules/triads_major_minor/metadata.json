@@ -1,0 +1,35 @@
+{
+  "id": "triads_major_minor",
+  "title": "Major & Minor Triads",
+  "description": "Stacking thirds to build basic chords. Learn the difference between Major and minor triads.",
+  "sessions": [
+    {
+      "id": "building_major_triads",
+      "title": "The Happy Chord",
+      "description": "Learn to stack a Major 3rd and a perfect 5th to create a Major triad.",
+      "version": 1
+    },
+    {
+      "id": "building_minor_triads",
+      "title": "The Sad Chord",
+      "description": "Lower the third to create a minor triad.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_triads_major_minor_mastery",
+      "title": "Mastery of Major & Minor Triads",
+      "description": "Capability specific to mod_triads_major_minor.",
+      "levels": [
+        {
+          "id": "prof_triads_major_minor_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can construct and identify root-position Major and minor triads."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

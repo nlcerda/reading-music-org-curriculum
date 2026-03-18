@@ -1,0 +1,1 @@
+Teach the common dotted-quarter / eighth note rhythm pair. It takes up exactly two beats. Provide an exercise mixing this figure with standard quarter notes in 4/4 time to practice the syncopated feel.

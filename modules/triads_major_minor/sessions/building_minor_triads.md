@@ -1,0 +1,1 @@
+Teach the minor triad by taking a Major triad and lowering the 3rd by a half step. Use A minor and D minor as examples. Create an exercise where major chords and minor chords are mixed together for the user to read and play.

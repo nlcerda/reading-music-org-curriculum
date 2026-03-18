@@ -1,0 +1,1 @@
+Teach the order of sharps: F, C, G, D, A, E, B. Explain common mnemonics. Provide a quiz-like interactive exercise that tests the user on which sharp comes next in the sequence.

@@ -1,0 +1,1 @@
+Define what a sharp symbol does (raises the note by a half-step). Give an interactive exercise on the Grand Staff that requires the user to read and play various sharp notes like F#, C#, and G#.

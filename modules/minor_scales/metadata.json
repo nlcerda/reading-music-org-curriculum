@@ -1,0 +1,35 @@
+{
+  "id": "minor_scales",
+  "title": "Relative Minor Keys",
+  "description": "Discover the 'sad' sibling of every major key. Learn how to find the relative minor.",
+  "sessions": [
+    {
+      "id": "relative_minor",
+      "title": "The Rule of 3 Half Steps",
+      "description": "Find the natural minor scale hidden in every key signature.",
+      "version": 1
+    },
+    {
+      "id": "a_minor_natural",
+      "title": "The A Minor Scale",
+      "description": "Play the C major scale's relative minor.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_minor_scamastery",
+      "title": "Mastery of Relative Minor Keys",
+      "description": "Capability specific to mod_minor_scales.",
+      "levels": [
+        {
+          "id": "prof_minor_scalvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can identify both the Major and Minor key a signature represents."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

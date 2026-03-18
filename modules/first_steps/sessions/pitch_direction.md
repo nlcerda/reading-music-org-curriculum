@@ -1,0 +1,1 @@
+Explain the concept of pitch direction: higher on the staff means higher pitch, lower means lower. Introduce the notes F and G to complete the 5-finger C major position. Create simple exercises stepping up from C to G and back down.

@@ -1,0 +1,1 @@
+Combine Treble Clef line and space notes. Provide exercises with melodic fragments spanning from E4 to F5. Focus on step-wise motion and small skips.

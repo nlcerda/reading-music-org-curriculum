@@ -1,0 +1,1 @@
+Explain the Grand Staff. Show how Middle C sits exactly between the Treble and Bass clefs. Create exercises that alternate playing Middle C in the Treble clef and the Bass clef to solidify this connection visually.

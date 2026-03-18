@@ -1,0 +1,1 @@
+Explore the A natural minor scale, the relative minor of C major (all white keys). Discuss the difference in interval structure that gives it a different mood. Provide an exercise to play the A natural minor scale.

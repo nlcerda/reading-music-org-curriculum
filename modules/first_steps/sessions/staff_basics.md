@@ -1,0 +1,1 @@
+Do not assume I have any knowledge about any music concept at all, every used concept must be introduced. Explain all the basic sheet music elements and use a basic one hand exercise with two bars, each with to half middle c, use this exercise to help the user recognize the main elements, and understand how to use the app controls to practice.

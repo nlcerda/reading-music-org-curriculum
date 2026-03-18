@@ -1,0 +1,41 @@
+{
+  "id": "time_signatures_simple",
+  "title": "Simple Time Signatures",
+  "description": "Learn how music is grouped into measures. Covers 4/4 (Common Time), 3/4, and 2/4.",
+  "sessions": [
+    {
+      "id": "4_4_time",
+      "title": "Common Time",
+      "description": "Understanding the most popular meter: 4/4 time.",
+      "version": 1
+    },
+    {
+      "id": "3_4_time",
+      "title": "The Waltz Feel",
+      "description": "Understanding 3/4 time.",
+      "version": 1
+    },
+    {
+      "id": "2_4_time",
+      "title": "The March",
+      "description": "Understanding 2/4 time.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_time_signatures_simple_mastery",
+      "title": "Mastery of Simple Time Signatures",
+      "description": "Capability specific to mod_time_signatures_simple.",
+      "levels": [
+        {
+          "id": "prof_time_signatures_simple_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can identify the meter of a piece and place bar lines correctly."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,1 @@
+Teach the construction of a Major triad (Root, Major 3rd, Perfect 5th). Use C Major as the first example. Create an exercise showing root position major chords (C, F, G) on the staff and ask the user to play them.

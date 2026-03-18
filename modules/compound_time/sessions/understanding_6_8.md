@@ -1,0 +1,1 @@
+Explain 6/8 time signature. Clarify that while there are 6 eighth notes per measure, we usually feel it as two big beats (like a dotted quarter note) that divide into three eighth notes each. Provide an exercise in 6/8 time demonstrating this feeling using eighth notes and dotted quarter notes.

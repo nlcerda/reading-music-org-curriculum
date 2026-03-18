@@ -1,0 +1,1 @@
+Explain the natural symbol and the rule that accidentals carry through the measure but reset at the bar line. Provide an exercise demonstrating an accidental note followed by its natural version within the same measure.

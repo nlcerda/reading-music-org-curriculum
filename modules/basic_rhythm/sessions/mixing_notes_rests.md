@@ -1,0 +1,1 @@
+Create exercises combining whole, half, and quarter notes with their corresponding rests in 4/4 time. Use only the note Middle C to keep the focus entirely on rhythm reading rather than pitch reading.

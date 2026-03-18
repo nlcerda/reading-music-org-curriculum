@@ -1,0 +1,35 @@
+{
+  "id": "key_signatures_flat",
+  "title": "Flat Key Signatures",
+  "description": "Learn the order of flats and how to identify major keys from F to Db.",
+  "sessions": [
+    {
+      "id": "order_of_flats",
+      "title": "BEAD Greatest Common Factor",
+      "description": "Learn the exact order that flats appear in a key signature.",
+      "version": 1
+    },
+    {
+      "id": "flat_major_keys",
+      "title": "The Second-to-Last Trick",
+      "description": "Learn the shortcut to identify any flat major key.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_key_signatures_flat_mastery",
+      "title": "Mastery of Flat Key Signatures",
+      "description": "Capability specific to mod_key_signatures_flat.",
+      "levels": [
+        {
+          "id": "prof_key_signatures_flat_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can instantly name a major key by looking at its flat signature."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

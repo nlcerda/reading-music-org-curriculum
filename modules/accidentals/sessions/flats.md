@@ -1,0 +1,1 @@
+Define what a flat symbol does (lowers the note by a half-step). Give an interactive exercise on the Grand Staff requiring the user to read and play flat notes like Bb, Eb, and Ab.

@@ -1,0 +1,1 @@
+Explain how a dot adds half of the original note's value to its total duration. Let's start with the Dotted Half Note in 3/4 and 4/4 time. Provide a reading exercise highlighting dotted half notes.

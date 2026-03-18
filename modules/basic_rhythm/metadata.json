@@ -1,0 +1,35 @@
+{
+    "id": "basic_rhythm",
+    "title": "Basic Rhythm & Rests",
+    "description": "Learn the most common note durations: whole, half, quarter, and their corresponding rests.",
+    "references": [],
+    "sessions": [
+        {
+            "id": "understanding_rests",
+            "title": "Introduction to Rests",
+            "description": "Learn what rests are and how they correspond to note durations.",
+            "version": 1
+        },
+        {
+            "id": "mixing_notes_rests",
+            "title": "Mixing Notes and Rests",
+            "description": "Combine whole, half, and quarter notes with their rests.",
+            "version": 1
+        }
+    ],
+    "proficiencies": [
+        {
+            "id": "prof_basic_rhythm_mastery",
+            "title": "Mastery of Basic Rhythm & Rests",
+            "description": "Capability specific to mod_basic_rhythm.",
+            "levels": [
+                {
+                    "id": "prof_basic_rhythm_lvl0",
+                    "index": 0,
+                    "description": "Baseline Proficiency",
+                    "criteria": "Can clap or tap basic rhythmic patterns."
+                }
+            ]
+        }
+    ]
+}

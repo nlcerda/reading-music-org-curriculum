@@ -1,0 +1,1 @@
+Teach the notes in the spaces of the Bass Clef: A, C, E, G. Mention mnemonics like 'All Cows Eat Grass' as an English-specific example, but emphasize the intervals. Provide interactive exercises that present space notes randomly for the user to play.

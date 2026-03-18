@@ -1,0 +1,1 @@
+Introduce the concept of eighth notes. Explain how to count them as '1 and 2 and 3 and 4 and'. Create a simple rhythm reading exercise using only the Middle C note that mixes quarter notes and pairs of eighth notes.

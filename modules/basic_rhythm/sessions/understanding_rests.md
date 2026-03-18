@@ -1,0 +1,1 @@
+Explain the concept of musical rests. Introduce the whole rest, half rest, and quarter rest. Explain that silence is just as important as sound in music. Provide simple 4/4 exercises with a single Middle C and various rests so the user can practice waiting.

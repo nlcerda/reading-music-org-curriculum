@@ -1,0 +1,1 @@
+Create simple two-handed exercises on the Grand Staff. Keep it to alternating hands (not playing simultaneously yet). For example, a measure in the bass clef followed by a measure in the treble clef, moving smoothly through Middle C.

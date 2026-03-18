@@ -1,0 +1,35 @@
+{
+  "id": "eighth_notes",
+  "title": "Eighth Notes & Subdivisions",
+  "description": "Break the beat in half. Learn to read and perform pairs of eighth notes and eighth rests.",
+  "sessions": [
+    {
+      "id": "intro_eighth_notes",
+      "title": "One And Two And",
+      "description": "Learn what eighth notes are and how to count them.",
+      "version": 1
+    },
+    {
+      "id": "eighth_rests",
+      "title": "The Quick Break",
+      "description": "Learn what eighth rests look like and how to perform them.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_eighth_notes_mastery",
+      "title": "Mastery of Eighth Notes & Subdivisions",
+      "description": "Capability specific to mod_eighth_notes.",
+      "levels": [
+        {
+          "id": "prof_eighth_notes_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can accurately count and perform '1 and 2 and' rhythms."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

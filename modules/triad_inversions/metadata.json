@@ -1,0 +1,35 @@
+{
+  "id": "triad_inversions",
+  "title": "Chord Inversions",
+  "description": "Learn what happens when the root isn't on the bottom. Covers 1st and 2nd inversions.",
+  "sessions": [
+    {
+      "id": "first_inversion",
+      "title": "Third on the Bottom",
+      "description": "Learn to read and play 1st inversion chords.",
+      "version": 1
+    },
+    {
+      "id": "second_inversion",
+      "title": "Fifth on the Bottom",
+      "description": "Learn to read and play 2nd inversion chords.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_triad_inversions_mastery",
+      "title": "Mastery of Chord Inversions",
+      "description": "Capability specific to mod_triad_inversions.",
+      "levels": [
+        {
+          "id": "prof_triad_inversions_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can identify standard triads regardless of voicing order."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

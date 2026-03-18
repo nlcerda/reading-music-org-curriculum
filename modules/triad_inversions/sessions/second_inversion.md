@@ -1,0 +1,1 @@
+Explain second inversion: the fifth is the lowest note. Explain the visual shape (a fourth interval with a third stacked on top). Provide an exercise playing chord progressions linking root position (I) to second inversion (I6/4) chords.

@@ -1,0 +1,1 @@
+Teach the notes on the lines of the Treble Clef: E, G, B, D, F. Use common mnemonics as examples but focus on visual position. Provide interactive exercises that present these line notes randomly and ask the user to play them.

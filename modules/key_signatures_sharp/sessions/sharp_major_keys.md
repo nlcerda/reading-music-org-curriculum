@@ -1,0 +1,1 @@
+Teach the fast rule for finding a Sharp Major key: Look at the very last sharp and go up a half step to find the tonic. Provide an interactive exercise presenting various sharp key signatures and asking the user to play the tonic note of the major key.

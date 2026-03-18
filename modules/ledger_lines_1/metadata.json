@@ -1,0 +1,35 @@
+{
+  "id": "ledger_lines_1",
+  "title": "Ledger Lines: Just Outside the Staff",
+  "description": "Learn to read notes up to two ledger lines above and below the Treble and Bass clefs.",
+  "sessions": [
+    {
+      "id": "treble_ledger",
+      "title": "Reaching Higher",
+      "description": "Learn notes above and below the Treble Clef.",
+      "version": 1
+    },
+    {
+      "id": "bass_ledger",
+      "title": "Reaching Lower",
+      "description": "Learn notes above and below the Bass Clef.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_ledger_lines_1_mastery",
+      "title": "Mastery of Ledger Lines: Just Outside the Staff",
+      "description": "Capability specific to mod_ledger_lines_1.",
+      "levels": [
+        {
+          "id": "prof_ledger_lines_1_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Comfortably reads an extended range suitable for intermediate sheet music."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

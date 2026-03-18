@@ -1,0 +1,1 @@
+Explain first inversion: taking the root of the chord and moving it up an octave, leaving the 3rd on the bottom. Explain the visual shape on the staff (a third interval with a fourth stacked on top). Provide an exercise reading root position and 1st inversion C major chords.

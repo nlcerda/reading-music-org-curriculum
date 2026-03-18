@@ -1,0 +1,1 @@
+Teach the order of flats: B, E, A, D, G, C, F. Notice how it is the reverse of the sequence of sharps. Provide interactive exercises testing the sequence.

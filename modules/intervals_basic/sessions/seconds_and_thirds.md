@@ -1,0 +1,1 @@
+Explain musical intervals, focusing on 2nds (steps) and 3rds (skips). Teach the visual trick: 2nds always go line-to-space, while 3rds go line-to-line or space-to-space. Provide an exercise requiring the user to identify and play harmonic and melodic 2nds and 3rds.

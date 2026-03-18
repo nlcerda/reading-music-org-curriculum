@@ -1,0 +1,35 @@
+{
+  "id": "key_signatures_sharp",
+  "title": "Sharp Key Signatures",
+  "description": "Learn the order of sharps and how to identify major keys from G to B.",
+  "sessions": [
+    {
+      "id": "order_of_sharps",
+      "title": "Father Charles Goes Down",
+      "description": "Learn the exact order that sharps appear in a key signature.",
+      "version": 1
+    },
+    {
+      "id": "sharp_major_keys",
+      "title": "The Up-A-Half-Step Trick",
+      "description": "Learn the shortcut to identify any sharp major key.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_key_signatures_sharp_mastery",
+      "title": "Mastery of Sharp Key Signatures",
+      "description": "Capability specific to mod_key_signatures_sharp.",
+      "levels": [
+        {
+          "id": "prof_key_signatures_sharp_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Can instantly name a major key by looking at its sharp signature."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,1 @@
+Teach the formula for a Major scale: Whole, Whole, Half, Whole, Whole, Whole, Half. Show how starting on C and following this formula uses only white keys. Provide an interactive exercise that has the user play a single octave ascending C major scale.

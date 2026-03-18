@@ -1,0 +1,1 @@
+Explain scale degrees (1st through 8th) using the C Major scale. Provide a melody in C major and ask questions about the function of notes, ending the exercise on the 'tonic' (1st degree) to demonstrate resolution.

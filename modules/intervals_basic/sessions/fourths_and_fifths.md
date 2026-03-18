@@ -1,0 +1,1 @@
+Introduce 4ths and 5ths. Discuss the visual pattern: 4ths always change from a line to a space (skipping a line/space in between), while 5ths stay on lines or spaces (line-skip line-line). Provide exercises for recognizing and playing these larger intervals.

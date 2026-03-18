@@ -1,0 +1,1 @@
+Explain ledger lines. Teach the notes immediately above the Treble Clef (G5, A5, B5, C6) and immediately below (D4, Middle C4). Present a reading exercise containing melodies that cross into these outer boundaries.

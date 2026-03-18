@@ -1,0 +1,1 @@
+Introduce the concept of a steady beat and basic rhythm. Teach the difference in duration between whole notes, half notes, and quarter notes in 4/4 time. Create simple exercises using only the C major 5-finger position that mixes these note values.

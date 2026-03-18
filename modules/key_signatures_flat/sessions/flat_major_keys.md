@@ -1,0 +1,1 @@
+Teach the fast rule for finding a Flat Major key: The second-to-last flat IS the name of the key (except for F major with one flat, which must be memorized). Provide an exercise presenting various flat key signatures and asking the user to play the correct tonic.

@@ -1,0 +1,1 @@
+Explain relative minor keys. Teach that every Major key shares its signature with a minor key that starts 3 half-steps (a minor 3rd) below the Major root. Create an exercise where you give a Major key and ask the user to play the relative minor root.

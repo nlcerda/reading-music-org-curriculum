@@ -1,0 +1,1 @@
+Introduce 16th notes. Show how they have double beams and fit four to a quarter note beat. Teach the '1 e & a' counting method. Provide an exercise in 4/4 on Middle C combining quarter notes and blocks of four 16th notes.

@@ -1,0 +1,1 @@
+Explain the ledger lines immediately below the Bass Clef (F2, E2, D2, C2) and immediately above (B3, Middle C4). Present a reading exercise focusing on these low and high extensions in the bass clef.

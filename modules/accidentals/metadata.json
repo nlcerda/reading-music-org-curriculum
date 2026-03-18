@@ -1,0 +1,41 @@
+{
+  "id": "accidentals",
+  "title": "Sharps, Flats, & Naturals",
+  "description": "Introduction to chromatic alteration using accidental symbols.",
+  "sessions": [
+    {
+      "id": "sharps",
+      "title": "Going Up a Half Step",
+      "description": "Learn about the sharp symbol and what it does.",
+      "version": 1
+    },
+    {
+      "id": "flats",
+      "title": "Going Down a Half Step",
+      "description": "Learn about the flat symbol and what it does.",
+      "version": 1
+    },
+    {
+      "id": "naturals",
+      "title": "Canceling the Effect",
+      "description": "Learn about the natural symbol.",
+      "version": 1
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "prof_accidentals_mastery",
+      "title": "Mastery of Sharps, Flats, & Naturals",
+      "description": "Capability specific to mod_accidentals.",
+      "levels": [
+        {
+          "id": "prof_accidentals_lvl0",
+          "index": 0,
+          "description": "Baseline Proficiency",
+          "criteria": "Understands how to raise or lower a pitch by a half-step."
+        }
+      ]
+    }
+  ],
+  "references": []
+}

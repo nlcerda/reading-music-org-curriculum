@@ -1,0 +1,1 @@
+Teach the notes in the spaces of the Treble Clef: F, A, C, E. Mention mnemonics like 'FACE' as examples. Provide interactive exercises that present space notes randomly for the user to play.

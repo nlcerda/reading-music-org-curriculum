@@ -1,0 +1,1 @@
+Create rhythms mixing one 8th note with two 16th notes (the 'strawberry' or 'blueberry' rhythms). Provide challenging but slow exercises to practice these mixed subdivisions accurately. Keep the focus entirely on rhythm by only using Middle C.

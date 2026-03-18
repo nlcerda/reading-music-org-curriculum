@@ -1,0 +1,1 @@
+Combine Bass Clef line and space notes. Provide exercises with melodic fragments spanning from G2 to A3. Focus on step-wise motion and small skips.

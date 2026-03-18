@@ -1,0 +1,1 @@
+Introduce the eighth rest symbol. Provide an exercise in 4/4 time combining quarter notes, beamed eighth notes, and off-beat eighth notes (an eighth rest followed by an eighth note) on Middle C.

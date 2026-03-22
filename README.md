@@ -10,6 +10,8 @@ The most atomic element. It represents something that a student is expected to f
 ## Modules
 A module is a sequence of related sessions that are finished in order. It can be as short as a single session, but shouldn't become so large that it cannot be expressed linearly, or contain sessions that are unrelated to each other. It should focus on a single specific subject.
 
+Think of modules as the natural grouping of sessions, if sessions are completed in one sitting, a module is completed in an uninterrupted period of time, modules are thought so that you complete without a period of time too long goes by in the middle, in a session if you drop the session at the mid, you;ll probably need to start over, in a module, if you drop the module at half for 6 months, you may need to start over.
+
 Modules have **requirements**, meaning that together, modules form a Directed Acyclic Graph (DAG), the goal is to enable tools that present the user with this graph and allow the user to understand what part of the graph they have covered, and understand how they can mode on.   
 
 ## Proficiencies

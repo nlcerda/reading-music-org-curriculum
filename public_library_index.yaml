@@ -1,0 +1,32 @@
+# Public Library Manifest
+# Each entry maps to a MXL file in this repository.
+# title/composer here drive the list view — the actual parsed metadata
+# from the MXL file is used once a piece is opened.
+
+pieces:
+
+  # ── Ludwig van Beethoven ────────────────────────────────────────────────────
+
+  - id: beethoven-moonlight-op27-no2
+    title: "Piano Sonata No. 14 in C♯ minor, Op. 27 No. 2 — Adagio sostenuto"
+    composer: Ludwig van Beethoven
+    path: musicxml/beethoven/piano-sonata-no14-op27-no2.mxl
+
+  # ── Frédéric Chopin ─────────────────────────────────────────────────────────
+
+  - id: chopin-berceuse-op57
+    title: "Berceuse in D♭ major, Op. 57"
+    composer: Frédéric Chopin
+    path: musicxml/chopin/berceuse-op57.mxl
+
+  - id: chopin-etude-op10-no2
+    title: "Étude No. 2 in A minor, Op. 10 — \"Chromatic\""
+    composer: Frédéric Chopin
+    path: musicxml/chopin/etude-op10-no2.mxl
+
+  # ── Wolfgang Amadeus Mozart ─────────────────────────────────────────────────
+
+  - id: mozart-piano-sonata-no16-k545-allegro
+    title: "Piano Sonata No. 16 in C major, K. 545 — Allegro"
+    composer: Wolfgang Amadeus Mozart
+    path: musicxml/mozart/piano-sonata-no16-k545-allegro.mxl
